@@ -64,5 +64,7 @@ module Zs
     
     #heroku settings
     config.assets.initialize_on_precompile = false
+    
+    config.i18n.default_locale = :fr
   end
 end
